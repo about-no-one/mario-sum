@@ -1,0 +1,6 @@
+:root { --sky:#5c94fc; --brick:#c84c0c; --night:#1b1230; --gold:#fcd000; --red:#d82800; --cream:#fff4d6;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px); }
+*,*::before,*::after { box-sizing:inherit }
+body { margin:0; background:var(--night); color:var(--cream); min-height:100vh; display:flex; justify-content:center;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; -webkit-user-select:none; user-select:none; touch-action:manipulation }
+.pix { font-family:"Press Start 2P","Courier New",monospace }
